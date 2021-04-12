@@ -28,6 +28,10 @@ namespace TariffComparison
                 }
                 
             }
+            else
+            {
+                Console.WriteLine("Input is not valid");
+            }
             Console.ReadLine();
         }
     }
